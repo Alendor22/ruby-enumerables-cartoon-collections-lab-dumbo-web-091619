@@ -14,8 +14,5 @@ end
 
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  value = cheese_types.first
-  if value =! cheese_types
-    return nil
-    
 end
+value = 
