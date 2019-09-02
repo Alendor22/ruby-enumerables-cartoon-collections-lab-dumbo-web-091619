@@ -4,7 +4,7 @@ end
 
 def summon_captain_planet(array)
   planet = []
-  array.collect { |obj| planet.push("#{obj.capitalize}!")}
+  array.collect{ |obj| planet.push("#{obj.capitalize}!")}
   p planet
 end
 
