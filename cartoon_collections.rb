@@ -15,4 +15,4 @@ end
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
 end
-value = array.find_index {|obj| obj = }
+value = array.find_index {|obj| obj == cheese_types }
