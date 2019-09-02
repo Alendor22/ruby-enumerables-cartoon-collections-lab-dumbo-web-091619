@@ -14,7 +14,6 @@ end
 
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
-end
   value = array.find_index{ |obj| cheese_types.include?(obj)}
   return array[value] unless value == nil 
 end 
